@@ -1,7 +1,6 @@
 import { Box, Button, Divider, Grid, Paper, Typography, Card, CardContent, IconButton, Dialog, DialogActions, DialogContent, DialogContentText, DialogTitle } from '@mui/material';
 import * as React from 'react';
 import { useEffect, useState } from 'react';
-import axios from 'axios';
 import { v4 as uuidv4 } from 'uuid';
 import SearchAppBar from '../../Components/SearchAppbar/SearchAppbar';
 import HighlightOffIcon from '@mui/icons-material/HighlightOff';
@@ -28,7 +27,9 @@ const getUUID = () => {
 
 const quitarReservasYRecargar = async (uuid, codeEvent, onTimeExpired) => {
   try {
-    await axios.put(`https://api2.primetix.fun/primetixapi/api/Asiento/QuitarReservas/${uuid}?codigoEvento=${codeEvent}`);
+    await fetch(`https://api2.primetix.fun/primetixapi/api/Asiento/QuitarReservas/${uuid}?codigoEvento=${codeEvent}`, {
+      method: 'PUT'
+    });
     console.log("Reservas eliminadas con éxito");
   } catch (error) {
     console.error("Error eliminando reservas:", error);
@@ -40,12 +41,15 @@ const quitarReservasYRecargar = async (uuid, codeEvent, onTimeExpired) => {
 
 const quitarReservas = async (uuid, codeEvent) => {
   try {
-    await axios.put(`https://api2.primetix.fun/primetixapi/api/Asiento/QuitarReservas/${uuid}?codigoEvento=${codeEvent}`);
+    await fetch(`https://api2.primetix.fun/primetixapi/api/Asiento/QuitarReservas/${uuid}?codigoEvento=${codeEvent}`, {
+      method: 'PUT'
+    });
     console.log("Reservas eliminadas con éxito");
   } catch (error) {
     console.error("Error eliminando reservas:", error);
   }
-}
+};
+
 
 const TimerComponent = ({ uuid, codeEvent, onTimeExpired }) => {
   const [timeLeft, setTimeLeft] = useState(() => {

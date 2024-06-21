@@ -8,7 +8,6 @@ import { getSeats, getReservSeats } from '../../Services/Seat/Seat';
 import { SeatsDetail } from '../../Types/Types';
 import io from 'socket.io-client';
 import { v4 as uuidv4 } from 'uuid';
-import axios from 'axios';
 import { useParams } from 'react-router-dom';
 
 
@@ -122,55 +121,61 @@ export const BookingPanzoom = ({
 
   const handleSeatClick = async (seat, element) => {
     try {
-      if (seat.ocupado && seat.uuid !== uuid) {
-        console.log(`El asiento ${seat.codigo} ya está ocupado por otro usuario`);
-        return; // Si el asiento ya está ocupado por otro usuario, no hacer nada
-      }
+        if (seat.ocupado && seat.uuid !== uuid) {
+            console.log(`El asiento ${seat.codigo} ya está ocupado por otro usuario`);
+            return; // Si el asiento ya está ocupado por otro usuario, no hacer nada
+        }
 
-      // Formato de la fecha de reserva
-      const fechaReserva = moment().format('YYYY-MM-DDTHH:mm');
+        // Formato de la fecha de reserva
+        const fechaReserva = moment().format('YYYY-MM-DDTHH:mm');
 
-      console.log(`Fecha de reserva: ${fechaReserva}`);
-      console.log(`UUID del usuario: ${uuid}`);
-      console.log(`Código del asiento: ${seat.codigo}`);
+        console.log(`Fecha de reserva: ${fechaReserva}`);
+        console.log(`UUID del usuario: ${uuid}`);
+        console.log(`Código del asiento: ${seat.codigo}`);
 
-      // Permitir deseleccionar el asiento si ya está seleccionado en esta sesión
-      if (reservSeats.some(s => s.codigo === seat.codigo)) {
-        console.log(`Deseleccionando asiento ${seat.codigo}`);
-        const response = await axios.put('https://api2.primetix.fun/primetixapi/api/Asiento/ReservaAsiento/false', {
-          codigoAsiento: seat.codigo,
-          uuid,
-          fechaReserva
-        });
-        console.log('Respuesta de la API al quitar reserva:', response.data);
-        socket.emit('seatDeselected', { seatId: seat.codigo, seatUuid: uuid }); // Emite evento de deselección
-        setReservSeats(prevSeats => prevSeats.filter(s => s.codigo !== seat.codigo));
-      } else {
-        console.log(`Seleccionando asiento ${seat.codigo}`);
-        const response = await axios.put('https://api2.primetix.fun/primetixapi/api/Asiento/ReservaAsiento/true', {
-          codigoAsiento: seat.codigo,
-          uuid,
-          fechaReserva
-        });
-        console.log('Respuesta de la API al reservar asiento:', response.data);
-        socket.emit('seatSelected', { seatId: seat.codigo, seatUuid: uuid });
-        setReservSeats(prevSeats => [...prevSeats, seat]);
-      }
+        // Permitir deseleccionar el asiento si ya está seleccionado en esta sesión
+        if (reservSeats.some(s => s.codigo === seat.codigo)) {
+            console.log(`Deseleccionando asiento ${seat.codigo}`);
+            const response = await fetch('https://api2.primetix.fun/primetixapi/api/Asiento/ReservaAsiento/false', {
+                method: 'PUT',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    codigoAsiento: seat.codigo,
+                    uuid,
+                    fechaReserva
+                })
+            });
+            const data = await response.json();
+            console.log('Respuesta de la API al quitar reserva:', data);
+            socket.emit('seatDeselected', { seatId: seat.codigo, seatUuid: uuid }); // Emite evento de deselección
+            setReservSeats(prevSeats => prevSeats.filter(s => s.codigo !== seat.codigo));
+        } else {
+            console.log(`Seleccionando asiento ${seat.codigo}`);
+            const response = await fetch('https://api2.primetix.fun/primetixapi/api/Asiento/ReservaAsiento/true', {
+                method: 'PUT',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    codigoAsiento: seat.codigo,
+                    uuid,
+                    fechaReserva
+                })
+            });
+            const data = await response.json();
+            console.log('Respuesta de la API al reservar asiento:', data);
+            socket.emit('seatSelected', { seatId: seat.codigo, seatUuid: uuid });
+            setReservSeats(prevSeats => [...prevSeats, seat]);
+        }
 
-      onBooking && onBooking(seat, element);
+        onBooking && onBooking(seat, element);
     } catch (error) {
-      console.error('Error en la llamada a la API:', error);
-      if (error.response) {
-        console.error('Datos de la respuesta del error:', error.response.data);
-        console.error('Estado de la respuesta del error:', error.response.status);
-        console.error('Encabezados de la respuesta del error:', error.response.headers);
-      } else if (error.request) {
-        console.error('Solicitud realizada:', error.request);
-      } else {
-        console.error('Error:', error.message);
-      }
+        console.error('Error en la llamada a la API:', error);
+        // Manejo de errores
     }
-  };
+};
 
   const _fitToViewer = () => Viewer.current?.fitToViewer();
 

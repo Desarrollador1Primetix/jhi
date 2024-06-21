@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="410" viewBox="-60 -60 120 82">
+<defs>
+	<rect id="a" width="2.5" height="2.5" x="-17.25" y="-1.25"/>
+	<rect id="b" width="2.5" height="2.5" x="-23.25" y="-1.25"/>
+	<rect id="c" width="2.5" height="2.5" x="-29.25" y="-1.25"/>
+	<rect id="d" width="2.5" height="2.5" x="-35.25" y="-1.25"/>
+	<rect id="e" width="2.5" height="2.5" x="-41.25" y="-1.25"/>
+	<rect id="f" width="2.5" height="2.5" x="-47.25" y="-1.25"/>
+	<rect id="g" width="2.5" height="2.5" x="-53.25" y="-1.25"/>
+	<rect id="h" width="2.5" height="2.5" x="-59.25" y="-1.25"/>
+	<rect id="i" width="2.5" height="2.5" x="-1.25" y="-1.25"/>
+	<rect id="j" width="4" height="4" x="-2" y="-2"/>
+</defs>
+<use xlink:href="#i" x="-6" y="18.85"/>
+<use xlink:href="#j" y="18.85"/>
+<use xlink:href="#i" x="6" y="18.85"/>
+
+<use xlink:href="#a" y="6.28"/>
+<use xlink:href="#a" y="9.42"/>
+<use xlink:href="#a" y="12.57"/>
+<use xlink:href="#a" y="15.71"/>
+<use xlink:href="#a" y="18.85"/>
+
+<use xlink:href="#a"/>
+<use xlink:href="#a" transform="rotate(11.25)"/>
+<use xlink:href="#a" transform="rotate(22.5)"/>
+<use xlink:href="#a" transform="rotate(33.75)"/>
+<use xlink:href="#a" transform="rotate(45)"/>
+<use xlink:href="#a" transform="rotate(67.5)"/>
+<use xlink:href="#a" transform="rotate(78.75)"/>
+<use xlink:href="#a" transform="rotate(90)"/>
+<use xlink:href="#a" transform="rotate(101.25)"/>
+<use xlink:href="#a" transform="rotate(112.5)"/>
+<use xlink:href="#a" transform="rotate(135)"/>
+<use xlink:href="#a" transform="rotate(146.25)"/>
+<use xlink:href="#a" transform="rotate(157.5)"/>
+<use xlink:href="#a" transform="rotate(168.75)"/>
+<use xlink:href="#a" transform="rotate(180)"/>
+
+<use xlink:href="#a" x="32" y="6.28"/>
+<use xlink:href="#a" x="32" y="9.42"/>
+<use xlink:href="#a" x="32" y="12.57"/>
+<use xlink:href="#a" x="32" y="15.71"/>
+
+<use xlink:href="#b" y="6.28"/>
+<use xlink:href="#b" y="9.42"/>
+<use xlink:href="#b" y="12.57"/>
+<use xlink:href="#b" y="15.71"/>
+<use xlink:href="#b" y="18.85"/>
+
+<use xlink:href="#b"/>
+<use xlink:href="#b" transform="rotate(8.182)"/>
+<use xlink:href="#b" transform="rotate(16.364)"/>
+<use xlink:href="#b" transform="rotate(32.727)"/>
+<use xlink:href="#b" transform="rotate(40.909)"/>
+<use xlink:href="#b" transform="rotate(49.091)"/>
+<use xlink:href="#b" transform="rotate(65.455)"/>
+<use xlink:href="#b" transform="rotate(73.636)"/>
+<use xlink:href="#b" transform="rotate(81.818)"/>
+<use xlink:href="#b" transform="rotate(98.182)"/>
+<use xlink:href="#b" transform="rotate(106.364)"/>
+<use xlink:href="#b" transform="rotate(114.545)"/>
+<use xlink:href="#b" transform="rotate(130.909)"/>
+<use xlink:href="#b" transform="rotate(139.091)"/>
+<use xlink:href="#b" transform="rotate(147.273)"/>
+<use xlink:href="#b" transform="rotate(163.636)"/>
+<use xlink:href="#b" transform="rotate(171.818)"/>
+<use xlink:href="#b" transform="rotate(180)"/>
+
+<use xlink:href="#b" x="44" y="6.28"/>
+<use xlink:href="#b" x="44" y="9.42"/>
+<use xlink:href="#b" x="44" y="12.57"/>
+<use xlink:href="#b" x="44" y="15.71"/>
+<use xlink:href="#b" x="44" y="18.85"/>
+
+<use xlink:href="#c" y="6.28"/>
+<use xlink:href="#c" y="9.42"/>
+<use xlink:href="#c" y="12.57"/>
+<use xlink:href="#c" y="15.71"/>
+<use xlink:href="#c" y="18.85"/>
+
+<use xlink:href="#c"/>
+<use xlink:href="#c" transform="rotate(6.429)"/>
+<use xlink:href="#c" transform="rotate(12.857)"/>
+<use xlink:href="#c" transform="rotate(19.286)"/>
+<use xlink:href="#c" transform="rotate(32.143)"/>
+<use xlink:href="#c" transform="rotate(38.571)"/>
+<use xlink:href="#c" transform="rotate(45)"/>
+<use xlink:href="#c" transform="rotate(51.429)"/>
+<use xlink:href="#c" transform="rotate(64.286)"/>
+<use xlink:href="#c" transform="rotate(70.714)"/>
+<use xlink:href="#c" transform="rotate(77.143)"/>
+<use xlink:href="#c" transform="rotate(83.571)"/>
+<use xlink:href="#c" transform="rotate(96.429)"/>
+<use xlink:href="#c" transform="rotate(102.857)"/>
+<use xlink:href="#c" transform="rotate(109.286)"/>
+<use xlink:href="#c" transform="rotate(115.714)"/>
+<use xlink:href="#c" transform="rotate(128.571)"/>
+<use xlink:href="#c" transform="rotate(135)"/>
+<use xlink:href="#c" transform="rotate(141.429)"/>
+<use xlink:href="#c" transform="rotate(147.857)"/>
+<use xlink:href="#c" transform="rotate(160.714)"/>
+<use xlink:href="#c" transform="rotate(167.143)"/>
+<use xlink:href="#c" transform="rotate(173.571)"/>
+<use xlink:href="#c" transform="rotate(180)"/>
+
+<use xlink:href="#c" x="56" y="6.28"/>
+<use xlink:href="#c" x="56" y="9.42"/>
+<use xlink:href="#c" x="56" y="12.57"/>
+<use xlink:href="#c" x="56" y="15.71"/>
+<use xlink:href="#c" x="56" y="18.85"/>
+
+<use xlink:href="#d" y="6.28"/>
+<use xlink:href="#d" y="9.42"/>
+<use xlink:href="#d" y="12.57"/>
+<use xlink:href="#d" y="15.71"/>
+<use xlink:href="#d" y="18.85"/>
+
+<use xlink:href="#d"/>
+<use xlink:href="#d" transform="rotate(5.294)"/>
+<use xlink:href="#d" transform="rotate(10.588)"/>
+<use xlink:href="#d" transform="rotate(15.882)"/>
+<use xlink:href="#d" transform="rotate(21.176)"/>
+<use xlink:href="#d" transform="rotate(31.765)"/>
+<use xlink:href="#d" transform="rotate(37.059)"/>
+<use xlink:href="#d" transform="rotate(42.353)"/>
+<use xlink:href="#d" transform="rotate(47.647)"/>
+<use xlink:href="#d" transform="rotate(52.941)"/>
+<use xlink:href="#d" transform="rotate(63.529)"/>
+<use xlink:href="#d" transform="rotate(68.824)"/>
+<use xlink:href="#d" transform="rotate(74.118)"/>
+<use xlink:href="#d" transform="rotate(79.412)"/>
+<use xlink:href="#d" transform="rotate(84.706)"/>
+<use xlink:href="#d" transform="rotate(95.294)"/>
+<use xlink:href="#d" transform="rotate(100.588)"/>
+<use xlink:href="#d" transform="rotate(105.882)"/>
+<use xlink:href="#d" transform="rotate(111.176)"/>
+<use xlink:href="#d" transform="rotate(116.471)"/>
+<use xlink:href="#d" transform="rotate(127.059)"/>
+<use xlink:href="#d" transform="rotate(132.353)"/>
+<use xlink:href="#d" transform="rotate(137.647)"/>
+<use xlink:href="#d" transform="rotate(142.941)"/>
+<use xlink:href="#d" transform="rotate(148.235)"/>
+<use xlink:href="#d" transform="rotate(158.824)"/>
+<use xlink:href="#d" transform="rotate(164.118)"/>
+<use xlink:href="#d" transform="rotate(169.412)"/>
+<use xlink:href="#d" transform="rotate(174.706)"/>
+<use xlink:href="#d" transform="rotate(180)"/>
+
+<use xlink:href="#d" x="68" y="6.28"/>
+<use xlink:href="#d" x="68" y="9.42"/>
+<use xlink:href="#d" x="68" y="12.57"/>
+<use xlink:href="#d" x="68" y="15.71"/>
+<use xlink:href="#d" x="68" y="18.85"/>
+
+<use xlink:href="#e" y="6.28"/>
+<use xlink:href="#e" y="9.42"/>
+<use xlink:href="#e" y="12.57"/>
+<use xlink:href="#e" y="15.71"/>
+<use xlink:href="#e" y="18.85"/>
+
+<use xlink:href="#e"/>
+<use xlink:href="#e" transform="rotate(4.5)"/>
+<use xlink:href="#e" transform="rotate(9)"/>
+<use xlink:href="#e" transform="rotate(13.5)"/>
+<use xlink:href="#e" transform="rotate(18)"/>
+<use xlink:href="#e" transform="rotate(22.5)"/>
+<use xlink:href="#e" transform="rotate(31.5)"/>
+<use xlink:href="#e" transform="rotate(36)"/>
+<use xlink:href="#e" transform="rotate(40.5)"/>
+<use xlink:href="#e" transform="rotate(45)"/>
+<use xlink:href="#e" transform="rotate(49.5)"/>
+<use xlink:href="#e" transform="rotate(54)"/>
+<use xlink:href="#e" transform="rotate(63)"/>
+<use xlink:href="#e" transform="rotate(67.5)"/>
+<use xlink:href="#e" transform="rotate(72)"/>
+<use xlink:href="#e" transform="rotate(76.5)"/>
+<use xlink:href="#e" transform="rotate(81)"/>
+<use xlink:href="#e" transform="rotate(85.5)"/>
+<use xlink:href="#e" transform="rotate(94.5)"/>
+<use xlink:href="#e" transform="rotate(99)"/>
+<use xlink:href="#e" transform="rotate(103.5)"/>
+<use xlink:href="#e" transform="rotate(108)"/>
+<use xlink:href="#e" transform="rotate(112.5)"/>
+<use xlink:href="#e" transform="rotate(117)"/>
+<use xlink:href="#e" transform="rotate(126)"/>
+<use xlink:href="#e" transform="rotate(130.5)"/>
+<use xlink:href="#e" transform="rotate(135)"/>
+<use xlink:href="#e" transform="rotate(139.5)"/>
+<use xlink:href="#e" transform="rotate(144)"/>
+<use xlink:href="#e" transform="rotate(148.5)"/>
+<use xlink:href="#e" transform="rotate(157.5)"/>
+<use xlink:href="#e" transform="rotate(162)"/>
+<use xlink:href="#e" transform="rotate(166.5)"/>
+<use xlink:href="#e" transform="rotate(171)"/>
+<use xlink:href="#e" transform="rotate(175.5)"/>
+<use xlink:href="#e" transform="rotate(180)"/>
+
+<use xlink:href="#e" x="80" y="6.28"/>
+<use xlink:href="#e" x="80" y="9.42"/>
+<use xlink:href="#e" x="80" y="12.57"/>
+<use xlink:href="#e" x="80" y="15.71"/>
+<use xlink:href="#e" x="80" y="18.85"/>
+
+<use xlink:href="#f" y="6.28"/>
+<use xlink:href="#f" y="9.42"/>
+<use xlink:href="#f" y="12.57"/>
+<use xlink:href="#f" y="15.71"/>
+<use xlink:href="#f" y="18.85"/>
+
+<use xlink:href="#f"/>
+<use xlink:href="#f" transform="rotate(3.91)"/>
+<use xlink:href="#f" transform="rotate(7.83)"/>
+<use xlink:href="#f" transform="rotate(11.74)"/>
+<use xlink:href="#f" transform="rotate(15.65)"/>
+<use xlink:href="#f" transform="rotate(19.57)"/>
+<use xlink:href="#f" transform="rotate(23.48)"/>
+<use xlink:href="#f" transform="rotate(31.30)"/>
+<use xlink:href="#f" transform="rotate(35.22)"/>
+<use xlink:href="#f" transform="rotate(39.13)"/>
+<use xlink:href="#f" transform="rotate(43.04)"/>
+<use xlink:href="#f" transform="rotate(46.96)"/>
+<use xlink:href="#f" transform="rotate(50.87)"/>
+<use xlink:href="#f" transform="rotate(54.78)"/>
+<use xlink:href="#f" transform="rotate(62.61)"/>
+<use xlink:href="#f" transform="rotate(66.52)"/>
+<use xlink:href="#f" transform="rotate(70.43)"/>
+<use xlink:href="#f" transform="rotate(74.35)"/>
+<use xlink:href="#f" transform="rotate(78.26)"/>
+<use xlink:href="#f" transform="rotate(82.17)"/>
+<use xlink:href="#f" transform="rotate(86.09)"/>
+<use xlink:href="#f" transform="rotate(93.91)"/>
+<use xlink:href="#f" transform="rotate(97.83)"/>
+<use xlink:href="#f" transform="rotate(101.74)"/>
+<use xlink:href="#f" transform="rotate(105.65)"/>
+<use xlink:href="#f" transform="rotate(109.57)"/>
+<use xlink:href="#f" transform="rotate(113.48)"/>
+<use xlink:href="#f" transform="rotate(117.39)"/>
+<use xlink:href="#f" transform="rotate(125.22)"/>
+<use xlink:href="#f" transform="rotate(129.13)"/>
+<use xlink:href="#f" transform="rotate(133.04)"/>
+<use xlink:href="#f" transform="rotate(136.96)"/>
+<use xlink:href="#f" transform="rotate(140.87)"/>
+<use xlink:href="#f" transform="rotate(144.78)"/>
+<use xlink:href="#f" transform="rotate(148.70)"/>
+<use xlink:href="#f" transform="rotate(156.52)"/>
+<use xlink:href="#f" transform="rotate(160.43)"/>
+<use xlink:href="#f" transform="rotate(164.35)"/>
+<use xlink:href="#f" transform="rotate(168.26)"/>
+<use xlink:href="#f" transform="rotate(172.17)"/>
+<use xlink:href="#f" transform="rotate(176.09)"/>
+<use xlink:href="#f" transform="rotate(180)"/>
+
+<use xlink:href="#f" x="92" y="6.28"/>
+<use xlink:href="#f" x="92" y="9.42"/>
+<use xlink:href="#f" x="92" y="12.57"/>
+<use xlink:href="#f" x="92" y="15.71"/>
+<use xlink:href="#f" x="92" y="18.85"/>
+
+<use xlink:href="#g"/>
+<use xlink:href="#g" transform="rotate(3.46)"/>
+<use xlink:href="#g" transform="rotate(6.92)"/>
+<use xlink:href="#g" transform="rotate(10.38)"/>
+<use xlink:href="#g" transform="rotate(13.85)"/>
+<use xlink:href="#g" transform="rotate(17.31)"/>
+<use xlink:href="#g" transform="rotate(20.77)"/>
+<use xlink:href="#g" transform="rotate(24.23)"/>
+<use xlink:href="#g" transform="rotate(31.15)"/>
+<use xlink:href="#g" transform="rotate(34.62)"/>
+<use xlink:href="#g" transform="rotate(38.08)"/>
+<use xlink:href="#g" transform="rotate(41.54)"/>
+<use xlink:href="#g" transform="rotate(45)"/>
+<use xlink:href="#g" transform="rotate(48.46)"/>
+<use xlink:href="#g" transform="rotate(51.92)"/>
+<use xlink:href="#g" transform="rotate(55.38)"/>
+<use xlink:href="#g" transform="rotate(62.31)"/>
+<use xlink:href="#g" transform="rotate(65.77)"/>
+<use xlink:href="#g" transform="rotate(69.23)"/>
+<use xlink:href="#g" transform="rotate(72.69)"/>
+<use xlink:href="#g" transform="rotate(76.15)"/>
+<use xlink:href="#g" transform="rotate(79.62)"/>
+<use xlink:href="#g" transform="rotate(83.08)"/>
+<use xlink:href="#g" transform="rotate(86.54)"/>
+<use xlink:href="#g" transform="rotate(93.46)"/>
+<use xlink:href="#g" transform="rotate(96.92)"/>
+<use xlink:href="#g" transform="rotate(100.38)"/>
+<use xlink:href="#g" transform="rotate(103.85)"/>
+<use xlink:href="#g" transform="rotate(107.31)"/>
+<use xlink:href="#g" transform="rotate(110.77)"/>
+<use xlink:href="#g" transform="rotate(114.23)"/>
+<use xlink:href="#g" transform="rotate(117.69)"/>
+<use xlink:href="#g" transform="rotate(124.62)"/>
+<use xlink:href="#g" transform="rotate(128.08)"/>
+<use xlink:href="#g" transform="rotate(131.54)"/>
+<use xlink:href="#g" transform="rotate(135)"/>
+<use xlink:href="#g" transform="rotate(138.46)"/>
+<use xlink:href="#g" transform="rotate(141.92)"/>
+<use xlink:href="#g" transform="rotate(145.38)"/>
+<use xlink:href="#g" transform="rotate(148.85)"/>
+<use xlink:href="#g" transform="rotate(155.77)"/>
+<use xlink:href="#g" transform="rotate(159.23)"/>
+<use xlink:href="#g" transform="rotate(162.69)"/>
+<use xlink:href="#g" transform="rotate(166.15)"/>
+<use xlink:href="#g" transform="rotate(169.62)"/>
+<use xlink:href="#g" transform="rotate(173.08)"/>
+<use xlink:href="#g" transform="rotate(176.54)"/>
+<use xlink:href="#g" transform="rotate(180)"/>
+
+<use xlink:href="#h" transform="rotate(9.31)"/>
+<use xlink:href="#h" transform="rotate(12.41)"/>
+<use xlink:href="#h" transform="rotate(15.52)"/>
+<use xlink:href="#h" transform="rotate(40.34)"/>
+<use xlink:href="#h" transform="rotate(43.45)"/>
+<use xlink:href="#h" transform="rotate(46.55)"/>
+<use xlink:href="#h" transform="rotate(71.38)"/>
+<use xlink:href="#h" transform="rotate(74.48)"/>
+<use xlink:href="#h" transform="rotate(77.59)"/>
+<use xlink:href="#h" transform="rotate(102.41)"/>
+<use xlink:href="#h" transform="rotate(105.52)"/>
+<use xlink:href="#h" transform="rotate(108.62)"/>
+<use xlink:href="#h" transform="rotate(133.45)"/>
+<use xlink:href="#h" transform="rotate(136.55)"/>
+<use xlink:href="#h" transform="rotate(139.66)"/>
+<use xlink:href="#h" transform="rotate(164.48)"/>
+<use xlink:href="#h" transform="rotate(167.59)"/>
+<use xlink:href="#h" transform="rotate(170.69)"/>
+</svg>

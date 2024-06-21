@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'BienaleBlackIt';
+  src: local('Bienale Black It'), url('./fonts/Biennale/Biennale\ Black\ It.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'BienaleBlack';
+  src: local('Bienale Black'), url('./fonts/Biennale/Biennale Black.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'BienaleBoldIt';
+  src: local('Bienale Bold It'), url('./fonts/Biennale/Biennale Bold It.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'BienaleBold';
+  src: local('Bienale Bold'), url('./fonts/Biennale/Biennale Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'BienaleBookIt';
+  src: local('Bienale Book It'), url('./fonts/Biennale/Biennale Book It.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'BienaleBook';
+  src: local('Bienale Book'), url('./fonts/Biennale/Biennale Book.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'BienaleHairIt';
+  src: local('Bienale Hair It'), url('./fonts/Biennale/Biennale Hair It.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'BienaleHair';
+  src: local('Bienale Hair'), url('./fonts/Biennale/Biennale Hair.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'BienaleHeavyIt';
+  src: local('Bienale Heavy It'), url('./fonts/Biennale/Biennale Heavy It.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'BienaleHeavy';
+  src: local('Bienale Heavy'), url('./fonts/Biennale/Biennale Heavy.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'BienaleLightIt';
+  src: local('Bienale Light It'), url('./fonts/Biennale/Biennale Light It.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'BienaleLight';
+  src: local('Bienale Light'), url('./fonts/Biennale/Biennale Light.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'BienaleMediumIt';
+  src: local('Bienale Medium It'), url('./fonts/Biennale/Biennale Medium It.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'BienaleMedium';
+  src: local('Bienale Medium'), url('./fonts/Biennale/Biennale Medium.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'BienaleRegularIt';
+  src: local('Bienale Regular It'), url('./fonts/Biennale/Biennale Regular It.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'BienaleRegular';
+  src: local('Bienale Regular'), url('./fonts/Biennale/Biennale Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'BienaleSemiBoldIt';
+  src: local('Bienale SemiBold It'), url('./fonts/Biennale/Biennale SemiBold It.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'BienaleSemiBold';
+  src: local('Bienale SemiBold'), url('./fonts/Biennale/Biennale SemiBold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'BienaleThinIt';
+  src: local('Bienale Thin It'), url('./fonts/Biennale/Biennale Thin It.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'BienaleThin';
+  src: local('Bienale Thin'), url('./fonts/Biennale/Biennale Thin.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'BienaleUltraLightIt';
+  src: local('Bienale Ultra Light It'), url('./fonts/Biennale/Biennale Ultra Light It.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'BienaleUltraLight';
+  src: local('Bienale Ultra Light'), url('./fonts/Biennale/Biennale Ultra Light.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Tiny5-Regular';
+  src: local('Tiny5 Regular'), url('./fonts/Biennale/Tiny5-Regular.ttf') format('opentype');
+}
